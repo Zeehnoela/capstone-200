@@ -21,6 +21,7 @@ Key Features
 * CloudWatch monitors and logs the entire pipeline
 
 # High-Level Architecture 
+```
 +-----------------+     +-----------------+     +--------------------+     +-----------------+
 |   API Gateway   | --> | Step Functions  | --> |  Lambda Function   | --> |       S3        |
 +-----------------+     +-----------------+     +--------------------+     +-----------------+
@@ -28,7 +29,8 @@ Key Features
           |                                                                                    
 +-----------------+                                                                            
 |   CloudWatch    |                                                                            
-+-----------------+ 
++-----------------+
+```
 
 # Explanation of the Workflow
 
